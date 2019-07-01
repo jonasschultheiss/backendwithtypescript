@@ -1,0 +1,33 @@
+site_name: 'Backend with TypeScript'
+
+site_author: 'Jonas Schultheiss'
+site_description: 'Documentation of the backend pattern I use in typescript.'
+
+repo_name: 'tsbackendpatters'
+repo_url: 'https://github.com/quest1onmark/backendwithtypescript'
+copyright: 'Copyright &copy; 2019 Jonas Schultheiss'
+site_url: ''
+
+theme:
+  name: 'material'
+
+  logo: 'images/ts.svg'
+
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+
+  language: 'en'
+
+  search:
+    language: 'en'
+    tokenizer: '[\s\-\.]+'
+
+extra:
+  social:
+    - type: 'globe'
+      link: 'https://jonasschultheiss.dev'
+    - type: 'github'
+      link: 'https://github.com/quest1onmark'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/jonas-schultheiss-682b54157/'
