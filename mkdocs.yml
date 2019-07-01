@@ -3,10 +3,10 @@ site_name: 'Backend with TypeScript'
 site_author: 'Jonas Schultheiss'
 site_description: 'Documentation of the backend pattern I use in typescript.'
 
-repo_name: 'tsbackendpatters'
+repo_name: 'backendwithtypescript'
 repo_url: 'https://github.com/quest1onmark/backendwithtypescript'
 copyright: 'Copyright &copy; 2019 Jonas Schultheiss'
-site_url: ''
+site_url: 'https://quest1onmark.github.io/backendwithtypescript/'
 
 theme:
   name: 'material'
@@ -26,8 +26,34 @@ theme:
 extra:
   social:
     - type: 'globe'
-      link: 'https://jonasschultheiss.dev'
+      link: 'https://www.jonasschultheiss.dev'
     - type: 'github'
       link: 'https://github.com/quest1onmark'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/in/jonas-schultheiss-682b54157/'
+
+nav:
+  - Home: index.md
+  - Setup:
+      - Node: index.md
+      - Code editor: index.md
+      - GitHub: index.md
+  - Project:
+      - Introduction: index.md
+      - TypeScript: index.md
+      - Express: index.md
+      - MongoDB: index.md
+      - Iridium: index.md
+      - Testing:
+          - Jest: index.md
+          - Chai: index.md
+      - Docker: index.md
+      - CI/CD: index.md
+  - Documentation:
+      - TypeScript: index.md
+      - Express: index.md
+      - MongoDB: index.md
+      - Iridium: index.md
+      - Testing: index.md
+      - Docker: index.md
+      - CI/CD: index.md
